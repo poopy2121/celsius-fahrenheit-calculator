@@ -1,3 +1,13 @@
-#equal {
-    margin-left: 6rem;
+body {
+    height: 100vh;
+}
+
+#celsiusfahrenheit {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+
 }
