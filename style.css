@@ -1,13 +1,29 @@
-body {
+
+.container {
     height: 100vh;
+    border: solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #celsiusfahrenheit {
 
+
+    border: solid;
+    height: 100%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100%;
+    
+}
 
+input {
+    height: 4rem;
+    width: 8rem;
+    border-radius: 12px;
+    border: solid;
+    font-size: 2em;
 }
