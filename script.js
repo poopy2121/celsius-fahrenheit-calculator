@@ -9,8 +9,13 @@ calculate.addEventListener('click', function() {
     var fahrenheit = celsius * (9/5) + 32;
 
 
-    result.innerText = fahrenheit
+    result.innerText = (fahrenheit + " Fahrenheit") 
 
+    if (isNaN(celsius)) {
+
+        result.innerHTML = "Invalid input. please enter a NUMBER."
+
+    }
 
     
 })

@@ -44,5 +44,13 @@ button {
 
 
 #result {
-    font-size: 3.5em;
+    font-size: 2.5em;
+    border: solid;
+    text-align: center;
+}
+
+
+button:hover {
+    background-color: rgb(177, 169, 169);
+    transition: .3s;
 }
