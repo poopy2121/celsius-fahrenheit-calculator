@@ -41,3 +41,8 @@ button {
     border: solid black;
     cursor: pointer;
 }
+
+
+#result {
+    font-size: 3.5em;
+}

@@ -1,20 +1,16 @@
-var fahrenheit = celsius * (9/5) + 32
-var roundedfahrenheit = Math.floor(fahrenheit);
-var usercelsius = document.getElementById("celsius").value;
-ergebnisfahrenheit = document.getElementById("fahrenheitergebnis")
+const result = document.getElementById("result");
+var celsiusinput = document.getElementById("celsius");
+const calculate = document.getElementById("calculate")
+
+calculate.addEventListener('click', function() {
 
 
+    var celsius = parseFloat(celsiusinput.value);
+    var fahrenheit = celsius * (9/5) + 32;
 
 
+    result.innerText = fahrenheit
 
-
-function celsiustofahrenheit() {
 
     
-
-    
-}
-
-
-
-console.log(roundedfahrenheit); 
+})
